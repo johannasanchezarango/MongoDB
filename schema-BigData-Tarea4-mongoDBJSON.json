@@ -45,8 +45,8 @@
       },
       "oldpeak": {
         "bsonType": [
-          "double",
-          "int"
+          "int",
+          "double"
         ]
       },
       "restecg": {
