@@ -1,0 +1,72 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "age",
+      "ca",
+      "chol",
+      "condition",
+      "cp",
+      "exang",
+      "fbs",
+      "oldpeak",
+      "restecg",
+      "sex",
+      "slope",
+      "thal",
+      "thalach",
+      "trestbps"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "age": {
+        "bsonType": "int"
+      },
+      "ca": {
+        "bsonType": "int"
+      },
+      "chol": {
+        "bsonType": "int"
+      },
+      "condition": {
+        "bsonType": "int"
+      },
+      "cp": {
+        "bsonType": "int"
+      },
+      "exang": {
+        "bsonType": "int"
+      },
+      "fbs": {
+        "bsonType": "int"
+      },
+      "oldpeak": {
+        "bsonType": [
+          "double",
+          "int"
+        ]
+      },
+      "restecg": {
+        "bsonType": "int"
+      },
+      "sex": {
+        "bsonType": "int"
+      },
+      "slope": {
+        "bsonType": "int"
+      },
+      "thal": {
+        "bsonType": "int"
+      },
+      "thalach": {
+        "bsonType": "int"
+      },
+      "trestbps": {
+        "bsonType": "int"
+      }
+    }
+  }
+}
